@@ -12,7 +12,8 @@
         <div class="circle"></div>
         <header>
             <a href="#"><img src="https://colonscreeningforlife.com/files/starbucks-logo-png-transparent-930x940.png" class="logo" alt="Starbucks logo"></a>
-            <ul>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">What's new</a></li>
@@ -28,8 +29,8 @@
                     sherk hous toso para caramba.</p>
                 <a href="#">learn more</a>
             </div>
-                <div class="imgBox">
-                    <img src="img1.png" class="starbucks" >
+            <div class="imgBox">
+                <img src="img1.png" class="starbucks" >
             </div>
         </div>
         <ul class="thumb">
@@ -52,6 +53,13 @@
         function changeCircleColor(color){
             const circle = document.querySelector('.circle');
             circle.style.background = color;
+        }
+
+        function toggleMenu(){
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
         }
     </script>
 </body>
