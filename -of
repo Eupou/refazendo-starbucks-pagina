@@ -1,0 +1,24 @@
+[33mcommit 9df964590c3661b55153743d5f221c11b08b210e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 544a4e2 16877d5
+Author: Eupou <wesleywesleygomesgomes@gmail.com>
+Date:   Tue Aug 3 00:18:28 2021 -0300
+
+    Merge branch 'master' of https://github.com/Eupou/refazendo-starbucks-pagina
+
+[33mcommit 544a4e2d23a8866ccf446ef7b17b5f0d7a5717b7[m
+Author: Eupou <wesleywesleygomesgomes@gmail.com>
+Date:   Tue Aug 3 00:10:16 2021 -0300
+
+    Adicionando a responsividade do site
+
+[33mcommit 16877d5948c702be8d9455560f0836523c001bf1[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Wesley de Farias Gomes <78924414+Eupou@users.noreply.github.com>
+Date:   Mon Aug 2 12:52:53 2021 -0300
+
+    Create README.md
+
+[33mcommit 5e2a8f1854098a5138305e98af7f33fd97d2bfdd[m
+Author: Eupou <wesleywesleygomesgomes@gmail.com>
+Date:   Mon Aug 2 12:47:17 2021 -0300
+
+    Base da interface  do Starbucks
